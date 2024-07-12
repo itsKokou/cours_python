@@ -1,0 +1,68 @@
+{
+    "_default": {
+        "1": {
+            "name": "Breukh",
+            "age": 18,
+            "deleted": true
+        },
+        "3": {
+            "name": "Chri Chri",
+            "age": 20,
+            "deleted": false
+        },
+        "4": {
+            "name": "DiagneShu",
+            "age": 23,
+            "deleted": false
+        },
+        "5": {
+            "name": "FabiShu",
+            "age": 14,
+            "deleted": false
+        },
+        "6": {
+            "name": "Martinique",
+            "age": 21,
+            "deleted": true,
+            "bios": [
+                "Flutter Dev",
+                "Magician"
+            ]
+        },
+        "7": {
+            "name": "Shupinette",
+            "age": 20,
+            "deleted": false
+        },
+        "8": {
+            "name": "FantiShu",
+            "age": 23,
+            "deleted": true
+        }
+    },
+    "Produit": {
+        "1": {
+            "libelle": "Tapis-souris",
+            "prix": 1500,
+            "quantite": 122
+        },
+        "2": {
+            "libelle": "Souris sans fil",
+            "prix": 4500,
+            "quantite": 15
+        },
+        "3": {
+            "libelle": "Clavier",
+            "prix": 2500,
+            "quantite": 300
+        }
+    },
+    "Categorie": {
+        "1": {
+            "lebelle": "Informatique"
+        },
+        "2": {
+            "lebelle": "Produit chimique"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "client_id": 3,
+        "film_id": 1,
+        "cine_id": 1,
+        "nbre_place_reserve": 2,
+        "montant": 10000,
+        "date": "18/01/2023",
+        "etat": 0
+    },
+    {
+        "id": 2,
+        "client_id": 3,
+        "film_id": 2,
+        "cine_id": 1,
+        "nbre_place_reserve": 1,
+        "montant": 8000,
+        "date": "19/01/2023",
+        "etat": 0
+    },
+    {
+        "id": 4,
+        "client_id": 5,
+        "film_id": 3,
+        "cine_id": 2,
+        "nbre_place_reserve": 1,
+        "montant": 8000,
+        "date": "20/01/2023",
+        "etat": 0
+    },
+    {
+        "id": 6,
+        "client_id": 5,
+        "film_id": 4,
+        "cine_id": 1,
+        "nbre_place_reserve": 2,
+        "montant": 18000,
+        "date": "21/01/2023",
+        "etat": 0
+    },
+    {
+        "id": 8,
+        "client_id": 7,
+        "film_id": 1,
+        "cine_id": 1,
+        "nbre_place_reserve": 2,
+        "montant": 8000,
+        "date": "06/02/2023",
+        "etat": 1
+    }
+]

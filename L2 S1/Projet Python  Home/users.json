@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nom": "Fall",
+        "prenom": "Kone",
+        "login": "fall",
+        "password": "passer",
+        "role": 1,
+        "etat": 1
+    },
+    {
+        "id": 2,
+        "nom": "GOAT",
+        "prenom": "Messi",
+        "login": "messi",
+        "password": "passer",
+        "role": 2,
+        "etat": 1
+    },
+    {
+        "id": 3,
+        "nom": "Moussa",
+        "prenom": "Abass",
+        "login": "abass",
+        "password": "passer",
+        "role": 3,
+        "etat": 1
+    },
+    {
+        "id": 4,
+        "nom": "Godwin",
+        "prenom": "Kokou",
+        "login": "kokou",
+        "password": "passer",
+        "role": 1,
+        "etat": 1
+    },
+    {
+        "id": 5,
+        "nom": "test",
+        "prenom": "test",
+        "login": "test",
+        "password": "passer",
+        "role": 3,
+        "etat": 0
+    },
+    {
+        "id": 6,
+        "nom": "Mr",
+        "prenom": "Kouss",
+        "login": "toto",
+        "password": "passer",
+        "role": 3,
+        "etat": 1
+    },
+    {
+        "id": 7,
+        "nom": "NIANG",
+        "prenom": "Aly",
+        "login": "aly",
+        "password": "passer",
+        "role": 3,
+        "etat": 1
+    }
+]

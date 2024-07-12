@@ -1,0 +1,34 @@
+Exo1
+Modou ferrailleur a une charette, chaque matin parcourt les rues
+de Dakar à la recherche de ferrailles. Il ne rentre que si la charette 
+est pleine ou que le poids des ferrailles n'est plus supporté par
+le cheval ou que le montant des ferrailles atteint 300000. Une ferraille
+est caractérisée par son poids, son type(bronze,cuivre,fer,or) et 
+son prix par kilogramme.
+=> 1 kilo de bronze : 100 francs  
+=> 1 kilo de fer : 75 francs 
+=> 1 kilo de cuivre : 500 francs 
+=> 1 kilo de or : 150000 francs 
+Un cheval ne peut supporter que :
+- 100 kilo s'il a entre 5 et 7 ans
+- maximun  200 kilo s'il a entre 7 et 10 ans 
+- Tout les autres chevaux ne sont pas pris en compte 
+La charette pèse 15 kilo. 
+Ecrire un programme qui demande à Modou de renseigner l'âge de son cheval,
+puis de remplir la charette de ferailles. 
+La charette sera considérée comme une liste de dictionnaire. Le programme
+affiche à la fin la somme des ferrailles.
+NB: Toutes les saisies doivent être contrôlées. L'acheteur des ferrailles 
+génèrent une facture pour Modou sous format txt.
+
+
+Exo2
+On considère un dictionnaire contenant les informations d'un étudiant pendant
+un semestre donné d'une année académique. Proposez une fonction qui lorqu'on 
+lui passe le dictionnaire, elle génère le bulletin de note de l'étudiant du 
+semestre donné de l'année académique. Ici les notes sont pondérées par un 
+coefficient.
+
+Exo3
+Ecrire une fonction qui prend en paramètre une liste et qui retourne un Tuple
+contenant le nombre de valeurs unique et le nombre de valeurs repété

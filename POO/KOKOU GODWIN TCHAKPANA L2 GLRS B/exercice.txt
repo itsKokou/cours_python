@@ -1,0 +1,52 @@
+1) Créer une classe Python nommée CompteBancaire qui représente un compte bancaire, ayant pour attributs :
+ - numeroCompte ,
+ - nom ,
+ - prenom
+ - adresse
+ - email
+ - telephone
+ - solde.
+ - date de creation du compte (la date actuelle)
+ - heure de creation du compte (heure actuelle)
+
+ 2) Créer un constructeur ayant comme paramètres :
+ - nom (nom du propriétaire du compte du type chaine),
+ - prenom
+ - email
+ - telephone
+
+3) Pour chaque attribut, créer une methode nommée getNomAttribut() :
+ qui permet de retourner la valeur de cette attribut.
+ exemple : getNom(), getAdresse(),...
+
+4) Créer une methode nommée setAdresse(adr) :
+ qui prend en parametre une adresse (adr) du client et qui permet d'initialiser l'adresse du client
+
+5) Créer une méthode Versement() qui gère les versements.
+
+6) Créer une méthode Retrait() qui gère les retraits.
+
+7) Créer une méthode Taxe() permettant d'appliquer une taxe à un pourcentage de 2 % du solde
+
+8) Créer une méthode afficher() permettant d’afficher les détails sur le compte
+
+10) Creer une methode de classe static nommée liste():
+  qui permet d'afficher la liste de tous les comptes
+
+NB:
+- Creer :
+ -> un fichier classes.py contenant toutes les classes
+ -> un fichier config.py contenant : les chemins de la base de donnees
+ -> un fichier banque.py dans le quel on cree les objets.
+
+ - Lors de la creation d'un compte les attributs suivants sont initialiseés automatiquement:
+   -> le numeroCompte (auto-increment : representant le nombre de compte actuelle)
+   -> le solde (avec la valeur 0 par defaut)
+   -> date : date actuelle
+   -> heure : heure actuelle
+
+- Chaque compte est enregistré dans la base de donnee (table compte):
+ Prevoir les methodes suivantes qui interagisse avec la base de donnees:
+  - save() qui sauvegardes les donnees du compte dans la base.
+  - setAdresseDB() qui fait un UPDATE de l'adresse du client
+  - versementDB() et retraitDB() qui font un UPDATE du solde

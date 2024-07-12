@@ -1,0 +1,9 @@
+OSC 2022
+
+
+Objet : Stage
+
+Bonjour Toto Sy,
+Suite à votre candidature à OSC, vous avez été sélectionné pour faire les tests.
+Votre login est : toto@exemple.com et votre mot de passe est STOTO.
+Merci

@@ -1,0 +1,4 @@
+On souhaite imprimer un bulletin de note d'un étudiant.
+Créez une fonction qui prend en paramètre un étudiant sous 
+forme de dictionnaire. la fonction crée un fichier appélé
+"bulletin_nometudiant.txt" qui est le bulletin de l'etudiant

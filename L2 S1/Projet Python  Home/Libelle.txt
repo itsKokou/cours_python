@@ -1,0 +1,39 @@
+==** PROJET PYTHON **==
+Gestion de cinémas: film sur recherche et programme
+Roles : client=3, admin=1, caissier=2 
+etat :  actif=1 ou bloqué=0
+
+GESTION RÉSERVATION DE CINÉMA : 
+Cette application permet aux clients d’avoir la fiche d’un film, les cinémas 
+qui proposent le film avec les horaires de passage mais aussi la gestion des 
+réservations. 
+
+CLIENT: 
+un client peut : 
+- Créer un compte 
+- Se connecter 
+- voir la liste de tous les films de la semaine. 
+- rechercher un film pour voir ses détails. 
+- réserver une ou plusieurs places dans un cinéma donné pour un film donné. 
+- annuler une réservation 
+- voir la liste de ses réservations avec l'état de chaque réservation (terminée, annulée, en cours) 
+- Les détails d’un film sont constitués par son synopsis, les cinémas qui le proposent par semaine, 
+les horaires de passage, le nombre de places restant par rapport à un cinéma, le prix des places. 
+- Après chaque réservation, un ticket est généré sous forme de fichier texte avec les informations nécessaires. 
+
+ADMIN: 
+l'administrateur peut: 
+- Créer un des comptes pour d’autres admin ou pour caissier. 
+- se connecter 
+- voir la liste des tous les clients 
+- voir la liste de tous les films 
+- bloquer ou débloquer un utilisateur 
+- ajouter un film et les détails (nom, synopsis, année de production, date de sortie, durée, genre,...) 
+- ajouter des cinémas pour un film avec les détails (nombre de places max, horaires de passage de la semaine, le prix, la salle,..)
+
+CAISSIER: 
+le caissier peut: 
+- se connecter 
+- générer un ticket d’un client 
+- valider une réservation client (quand un client fait une reservation, il faut que le caissier l’active 
+pour que l’etat de la reservation passe à l'état ACTIVE)

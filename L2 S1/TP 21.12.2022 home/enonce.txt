@@ -1,0 +1,38 @@
+exo1      
+ecrire un programme qui permet:
+1-demander a l'utilisateur de lui donner le nom d'un fichier txt a creer.
+le nom ne doit pas avoir de chiffre 
+2-le programme cree le fichier si un fichier de meme nom n'existe 
+pas dans le repertoire du projet.Sinon le programme nous pose une deuxieme question: voulez vous l'ecraser.
+l'utilisateur ne doit pouvoir repondre que par oui ou non la casse n'est pas respecté
+3-dans le cas ou l'utilisateur repond par non a la deuxieme question le programme lui demande de saisir un autre nom
+4-une fois le fichier cree le programme lui pose une troisieme question: Entrez le contenu du fichier.
+cette fois ci le contenu ne doit pas avoir de caractere speciaux(seule chiffre lettre et espace accepte).
+5-dans le cas ou la saisi du…
+
+ 
+exo2      
+Messi et Mbappe sont des joueurs de football tres talentueux.
+ecrire les sous programmes suivant:
+1-une fonction qui prend en parametre deux dictionnaire et qui 
+retourne le nom et le nombre de but du meilleur buteur sous forme de tuple.
+Nb:Chaque dictionnaire est caractererise par le nom du joueur, son age, et ses matchs
+qui sont sous forme de tableau de dictionnaire
+ses derniers son caracterise par une date et le nbre de but marque par ce joueur
+2-une fonction qui affiche les donnees d'un joueur.
+la fonction recoit en parametre le meme dictionnaire que la premiere fonction
+3-une fonction qui cree un fichier txt nomme par le nom du joueur.txt
+et qui contient les donnees du joueur comme affiche dans la question precedante.
+la fonction recoit en parametre le meme dictionnaire.
+
+exo3          
+Soit une liste de donnees (chaine booleen entier float).
+ecrire les fonction suivante:
+1-une fonction qui prend en parametre la liste (cette fonction ne prend en parametre 
+qu'une liste sinon elle retourne None)
+cette fonction cree un fichier json contenant 4 cles:
+"chaine" dont la valeur est la concatenation de l'ensemble des chaines,
+"entier"dont la valeur est la somme des entiers,
+"reel"dont la valeur est la moyenne des reels de la liste,
+"bool"dont la valeur est True si le nbr de true est superieure au false 
+sinon la valeur est False
